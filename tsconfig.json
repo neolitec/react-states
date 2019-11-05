@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "noImplicitAny": false,
-    "module": "commonjs",
-    "target": "es6",
+    "allowJs": true,
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
     "lib": [
       "es2015",
       "es2017",
       "dom"
     ],
-    "removeComments": true,
-    "allowSyntheticDefaultImports": false,
-    "jsx": "react",
-    "allowJs": true,
-    "baseUrl": "./",
+    "module": "commonjs",
+    "noImplicitAny": false,
     "paths": {
       "components/*": [
         "src/components/*"
@@ -21,7 +20,10 @@
       "services/*": [
         "src/services/*"
       ]
-    }
+    },
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6"
   },
   "include": [
       "./src/**/*"
